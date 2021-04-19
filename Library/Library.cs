@@ -12,6 +12,10 @@ namespace Library
         public string Name { set; get; }
         public string Adress { set; get; }
         public int YerOpen { set; get; }
+        public Library()
+        {
 
+        }
     }
+
 }

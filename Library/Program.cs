@@ -10,6 +10,12 @@ namespace Library
     {
         static void Main(string[] args)
         {
+            Library library = new Library();
+            library.Adress = "adress";
+            library.Name = "Name";
+            library.YerOpen = 5;
+            Console.WriteLine($"adress - {library.Adress}, Name - {library.Name} Yer = {library.YerOpen}");
+
         }
     }}
 
