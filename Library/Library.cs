@@ -12,8 +12,11 @@ namespace Library
         public string Name { set; get; }
         public string Adress { set; get; }
         public int YerOpen { set; get; }
-        public Library()
+        public Library(string Name, string Adress, int YerOpen)
         {
+            this.Adress = Adress;
+            this.Name = Name;
+            this.YerOpen = YerOpen;
 
         }
     }
